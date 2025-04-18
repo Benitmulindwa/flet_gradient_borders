@@ -2,7 +2,7 @@ import flet as ft
 from typing import Union
 
 
-class GradientBorder(ft.Container):
+class GradientBorders(ft.Container):
     def __init__(
         self,
         content: ft.Control,
