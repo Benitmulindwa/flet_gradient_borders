@@ -24,6 +24,7 @@ def main(page: ft.Page):
     page.vertical_alignment = "center"
     page.theme_mode = "light"
 
+    # GradientBorder1
     box = GradientBorders(
         content=ft.Container(height=100, width=100, border=ft.border.all(2, "yellow")),
         gradient=ft.RadialGradient(
@@ -34,6 +35,8 @@ def main(page: ft.Page):
         border_radius=100,
         border_width=3,
     )
+
+    # GradientBorder2
     box1 = GradientBorders(
         content=ft.Container(
             width=100,
@@ -47,6 +50,8 @@ def main(page: ft.Page):
         border_radius=0,
         border_width=3,
     )
+
+    # GradientBorder3
     box2 = GradientBorders(
         content=ft.TextField(
             hint_text="Enter your name",
