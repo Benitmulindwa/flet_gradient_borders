@@ -9,7 +9,9 @@ A custom Flet component that renders beautiful gradient borders around any contr
 
 ## 📦 Installation
 
-```pip install flet_gradient_borders```
+```bash
+pip install flet_gradient_borders
+```
 
 ## 🚀 Usage
 
